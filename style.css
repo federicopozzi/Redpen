@@ -15,8 +15,15 @@
 }
 
 /* Desktop */
+
+html{
+  width:100vw;
+  overflow-x: hidden;
+}
 body {
+  width:100vw;
   font-family: Menco-bold;
+  overflow-x: hidden;
 }
 
 #nav-space1 {
