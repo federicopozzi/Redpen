@@ -35,7 +35,29 @@ body {
   padding-left: 1.5rem;
   padding-right: 0rem;
 }
+.reg{
+  padding-top: 0.2rem;
+  padding-bottom:0.2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-right: 1rem;
+  border: 1px solid black;
+color:black !important;
 
+  border-radius: 15px;
+}
+.acc{
+  padding-top: 0.2rem;
+  padding-bottom:0.2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-right: 1rem;
+    border: 1px solid #ff2500;
+  color:white !important;
+    background-color: #ff2500;
+    border-radius: 15px;
+
+}
 .pay-off {
   font-size: 4.5rem;
   line-height: 4.5rem;
