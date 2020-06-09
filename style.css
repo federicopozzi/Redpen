@@ -1,0 +1,91 @@
+@font-face {
+  font-family: "Menco-bold";
+  src: url(fonts/MencoBold.woff) format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+@font-face {
+  font-family: "Cal-reg";
+  src: url(fonts/Calibre-Regular.woff) format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+/* Desktop */
+body {
+  font-family: Menco-bold;
+}
+
+#nav-space1 {
+  padding-left: 1.5rem;
+  padding-right: 1rem;
+}
+
+#nav-space2 {
+  padding-left: 1.5rem;
+  padding-right: 0rem;
+}
+
+.pay-off {
+  font-size: 4.5rem;
+  line-height: 4.5rem;
+  font-family: Menco-bold;
+}
+
+.sub-off {
+  font-size: 2rem;
+  line-height: 2rem;
+  font-family: Cal-reg;
+}
+
+.text {
+  font-family: Cal-reg;
+  text-align: center;
+
+  font-size: 1.5rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #ff2500;
+  color:white;
+}
+
+.padd{
+  padding-top: 8rem;
+}
+
+.padd2{
+  padding-top: 3rem;
+}
+
+.padd3{
+  padding-top: 3rem;
+  padding-bottom: 8rem;
+
+}
+.padd4{
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+
+}
+
+.video{
+  width: 75%;
+}
+.title {
+  font-size: 2rem;
+}
+
+.text2{
+  font-family: Menco-bold;
+  font-size: 2rem;
+  text-align: center;
+}
+
+/* iphone */
+@media only screen and (max-width: 414px) {}
+
+/* ipad */
+@media only screen and (max-width: 768px) {}
