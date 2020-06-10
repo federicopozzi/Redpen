@@ -25,7 +25,9 @@ body {
   font-family: Menco-bold;
   overflow-x: hidden;
 }
-
+p{
+  margin:0 0 0 0 !important;
+}
 #nav-space1 {
   padding-left: 1.5rem;
   padding-right: 1rem;
@@ -60,14 +62,14 @@ body {
 }
 
 .pay-off {
-  font-size: 4.5rem;
-  line-height: 4.5rem;
+  font-size: 5rem;
+  line-height: 5rem;
   font-family: Menco-bold;
 }
 
 .sub-off {
-  font-size: 2rem;
-  line-height: 2rem;
+  font-size: 2.5rem;
+  line-height: 2.5rem;
   font-family: Cal-reg;
 }
 
@@ -87,9 +89,13 @@ body {
   background-color: #ff2500;
   color: white;
 }
-
+.sc1{
+  margin-right: 5rem;
+  margin-left: 5rem;
+}
 .sec1-text{
-  font-size: 2rem;
+  font-size: 2.5rem;
+  line-height: 3rem;
   font-family: Cal-reg;
 
 }
@@ -106,7 +112,13 @@ body {
   font-size: 1.5rem;
 
 }
-
+#scr1{
+  text-align:center;
+}
+#scr2{
+  text-align:center;
+  font-family: Cal-reg;
+}
 .text1 {
   font-family: Cal-reg;
   font-size: 1.5rem;
@@ -148,6 +160,34 @@ body {
   text-align: center;
 }
 
+.card1{
+
+  background-color:white;
+}
+.l-card{
+  padding-left: 3rem;
+    padding-top: 3rem;
+      padding-bottom: 3rem;
+
+}
+.r-card{
+  padding-left: 3rem;
+    padding-top: 3rem;
+      padding-bottom: 3rem;
+
+
+}
+
+.title1{
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+}
+
+.text-card{
+  font-family: Cal-reg;
+  font-size: 1.3rem;
+  line-height: 1.3rem;
+}
 /* iphone */
 @media only screen and (max-width: 414px) {}
 
