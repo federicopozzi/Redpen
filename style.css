@@ -146,6 +146,11 @@ p{
   padding-bottom: 8rem;
 }
 
+.padd5 {
+  padding-top: 8rem;
+  padding-bottom: 3rem;
+}
+
 .video {
   width: 75%;
 }
@@ -188,6 +193,17 @@ p{
   font-size: 1.3rem;
   line-height: 1.3rem;
 }
+.text-ill{
+  font-family: Cal-reg;
+  font-size: 1.8rem;
+  line-height: 1.8rem;
+  text-align: center;
+
+}
+.bx-sw{
+  box-shadow: 0 5px 10px rgba(255, 187, 35, 0.25)
+}
+
 /* iphone */
 @media only screen and (max-width: 414px) {}
 
