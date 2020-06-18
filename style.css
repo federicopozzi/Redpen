@@ -230,7 +230,10 @@ p {
   font-size: 1.5rem;
   line-height: 1.5rem;
 }
-
+.foot{
+  color: white ;
+  font-family: Cal-reg;
+}
 /* iphone */
 @media only screen and (max-width: 414px) {}
 
