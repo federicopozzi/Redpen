@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Menco-bold";
-  src: url(fonts/MencoBold.woff) format('woff');
+  src: url(assets/fonts/Menco Bold.ttf) format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -8,7 +8,7 @@
 
 @font-face {
   font-family: "Cal-reg";
-  src: url(fonts/Calibre-Regular.woff) format('woff');
+  src: url(assets/fonts/Calibre-Regular.woff) format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -229,6 +229,18 @@ p {
   font-family: Cal-reg;
   font-size: 1.5rem;
   line-height: 1.5rem;
+}
+.faq-title{
+  font-family:Menco-bold;
+  font-size:3.5rem;
+}
+.acc-title{
+  font-family:Menco-bold;
+  font-size:2rem;
+}
+.acc-text{
+  font-family:Cal-reg;
+  font-size:1.5rem;
 }
 .foot{
   color: white ;
