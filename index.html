@@ -27,9 +27,9 @@
 
    <header>
      <!-- Image and text -->
-     <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+     <nav class="navbar fixed-top navbar-expand-lg navbar-light">
        <!-- <a class="navbar-brand" href="#"> <img src="assets/logo.png" width="150" height="50" alt=""></a> -->
-       <a class="ml-5">RedPen</a>
+       <a class="ml-5 home">RedPen</a>
        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
          <span class="navbar-toggler-icon"></span>
        </button>
@@ -58,7 +58,7 @@
    </header>
 
    <main>
-     <section class=" d-flex  align-items-center" style="height:100vh; padding-top:9vh;">
+     <section class=" d-flex  align-items-center bg-img" style="height:100vh;">
 
        <div class="container-fluid ml-5 mr-5">
          <div class="row ">
@@ -79,10 +79,10 @@
              </div>
 
            </div>
-           <div class="col-lg-7">
+           <!-- <div class="col-lg-7">
              <img src="assets/gallery/svg/ogg.svg" width="auto" class="uk-align-center"></img>
-
-           </div>
+data-src="assets/gallery/svg/ogg.svg" uk-img
+           </div> -->
 
 
          </div>
@@ -92,19 +92,22 @@
      </section>
 
 
-     <section>
+     <section class="padd">
        <div class="sec1 container-fluid">
          <div class="row mr-5 ml-5">
            <div class="col-lg-8 d-flex align-items-center">
              <p class=" sec1-text ">Al servizio di Maestre, Bambini e Famiglie</p>
            </div>
-           <div class="col-lg-4 ">
-             <p id="scr1">
-               <a class="scr ">Scarica l'app</a>
-             </p>
-             <p id="scr2" class="pt-2">
-               oppure utilizza la versione Desktop
-             </p>
+           <div class="col-lg-4 d-flex justify-content-end">
+             <div>
+               <p id="scr1">
+                 <a class="scr ">Scarica l'app</a>
+               </p>
+               <p id="scr2" class="pt-2">
+                 oppure utilizza la versione Desktop
+               </p>
+             </div>
+
            </div>
          </div>
        </div>
@@ -114,7 +117,7 @@
 
      <section class="padd4" style="background-color:#fff7e0;">
        <div class="container-fluid">
-         <div class="row">
+         <div class="row ">
 
            <div class="col-lg-12 d-flex justify-content-center">
              <div class="embed-responsive embed-responsive-16by9 video">
@@ -123,107 +126,106 @@
            </div>
          </div>
 
-         <div class="row padd d-flex justify-content-center" style="margin-right:5rem; margin-left:5rem;">
+         <div class="row padd d-flex justify-content-center">
            <div class="row ">
 
-             <div class="uk-child-width-1 " uk-grid>
-                 <!-- <div>
-                     <div class="uk-card uk-card-default uk-card-body " style="margin-right:5rem; margin-left:5rem;">
-                       <div class="row">
-                         <div class="col-6">
-                           <p>
-                             PER INSEGNANTI <br />
-                             <span class="title1">Una piattaforma creata
-                               per le tue esigenze.</span> <br />
-                             <span class="text-card">Scegli tra centinaia di template personalizzabili. <br /> Correggi i tuoi compiti in modo facile,
-                               veloce e intuitivo con un click.
-                               Segui passo passo l’apprendimento
-                               dei tuoi alunni e accompagnali da casa.
-                             </span>
-                           </p>
-                         </div>
-                         <div class="col-6">
-                           <img src="assets/gallery/loghi/logo2.jpg" class="img-fluid" alt="Responsive image">
-                         </div>
-                       </div>
+             <div class="uk-child-width-1 ml-5 mr-5" uk-grid>
+                <!-- <div>
+  <div class="uk-card uk-card-default uk-card-body " style="margin-right:5rem; margin-left:5rem;">
+    <div class="row">
+      <div class="col-6">
+        <p>
+          PER INSEGNANTI <br />
+          <span class="title1">Una piattaforma creata
+            per le tue esigenze.</span> <br />
+          <span class="text-card">Scegli tra centinaia di template personalizzabili. <br /> Correggi i tuoi compiti in modo facile,
+            veloce e intuitivo con un click.
+            Segui passo passo l’apprendimento
+            dei tuoi alunni e accompagnali da casa.
+          </span>
+        </p>
+      </div>
+      <div class="col-6">
+        <img src="assets/gallery/loghi/logo2.jpg" class="img-fluid" alt="Responsive image">
+      </div>
+    </div>
 
+  </div>
+</div> -->
+               <div class="uk-width-1@m uk-grid-small uk-grid-match pb-3">
+                 <div class="uk-card uk-card-default uk-card-small uk-card-body uk-border-rounded" >
+                   <div class="uk-grid">
+                     <div class="uk-width-1-2@m pb-4">
+                       <img src="assets/gallery/svg/mock.svg" class="uk-align-center"></img>
                      </div>
-                 </div> -->
-                 <div class="uk-width-1@m uk-grid-small uk-grid-match pb-3">
-                          <div class="uk-card uk-card-default uk-card-small uk-card-body " style="border-radius:2vh">
-                            <div class="uk-grid">
-                              <div class="uk-width-1-2@m">
-                                <img src="assets/gallery/Pianta01.png" width="150vh" class="uk-align-center"></img>
-                              </div>
-                              <div class="uk-width-expand@m pt-4">
-                                <p>
-                                  PER INSEGNANTI <br />
-                                  <span class="title1">Una piattaforma creata
-                                    per le tue esigenze.</span> <br />
-                                  <span class="text-card">Scegli tra centinaia di template personalizzabili. <br /> Correggi i tuoi compiti in modo facile,
-                                    veloce e intuitivo con un click.
-                                    Segui passo passo l’apprendimento
-                                    dei tuoi alunni e accompagnali da casa.
-                                  </span>
-                                </p>
-                                </div>
+                     <div class="uk-width-expand@m pt-4">
+                       <p>
+                         <span class="forwho">PER INSEGNANTI</span> <br />
+                         <span class="title1">Una piattaforma creata
+                           per le tue esigenze.</span> <br /><br />
+                         <span class="text-card">Scegli tra centinaia di template personalizzabili. <br /> Correggi i tuoi compiti in modo facile,
+                           veloce e intuitivo con un click.
+                           Segui passo passo l’apprendimento
+                           dei tuoi alunni e accompagnali da casa.
+                         </span>
+                       </p>
+                     </div>
 
-                              </div>
-                            </div>
+                   </div>
+                 </div>
 
-                          </div>
+               </div>
 
 
-                 <div class="uk-width-1@m uk-grid-small uk-grid-match pb-3">
-                          <div class="uk-card uk-card-default uk-card-small uk-card-body " style="border-radius:2vh">
-                            <div class="uk-grid">
+               <div class="uk-width-1@m uk-grid-small uk-grid-match pb-3">
+                 <div class="uk-card uk-card-default uk-card-small uk-card-body uk-border-rounded" >
+                   <div class="uk-grid">
+                     <div class="uk-width-1-2@m pb-4">
+                       <img src="assets/gallery/svg/mock.svg" class="uk-align-center"></img>
+                     </div>
+                     <div class="uk-width-expand@m pt-4">
+                       <p>
+                         <span class="forwho">PER INSEGNANTI</span> <br />
+                         <span class="title1">Una piattaforma creata
+                           per le tue esigenze.</span> <br /><br />
+                         <span class="text-card">Scegli tra centinaia di template personalizzabili. <br /> Correggi i tuoi compiti in modo facile,
+                           veloce e intuitivo con un click.
+                           Segui passo passo l’apprendimento
+                           dei tuoi alunni e accompagnali da casa.
+                         </span>
+                       </p>
+                     </div>
 
-                              <div class="uk-width-expand@m pt-4">
-                                <p>
-                                  PER BAMBINI <br />
-                                  <span class="title1">Fare i compiti ora sì
-                                    che è divertente,
-                                    puoi fare tutto da solo!</span> <br />
-                                  <span class="text-card">Aspetta la notifica del nuovo compito. Svolgi il compito assegnato
-                                    grazie alla semplicità della piattaforma.
-                                    Consegna subito all’Insegnante.
-                                  </span>
-                                </p>
-                                </div>
-                                <div class="uk-width-1-2@m">
-                                  <img src="assets/gallery/Pianta01.png" width="150vh" class="uk-align-center"></img>
-                                </div>
+                   </div>
+                 </div>
 
-                              </div>
-                            </div>
-
-                          </div>
+               </div>
 
 
 
-                 <div class="uk-width-1@m uk-grid-small uk-grid-match pb-3">
-                          <div class="uk-card uk-card-default uk-card-small uk-card-body " style="border-radius:2vh">
-                            <div class="uk-grid">
-                              <div class="uk-width-1-2@m">
-                                <img src="assets/gallery/Pianta01.png" width="150vh" class="uk-align-center"></img>
-                              </div>
-                              <div class="uk-width-expand@m pt-4">
-                                <p>
-                                  PER INSEGNANTI <br />
-                                  <span class="title1">Una piattaforma creata
-                                    per le tue esigenze.</span> <br />
-                                  <span class="text-card">Scegli tra centinaia di template personalizzabili. <br /> Correggi i tuoi compiti in modo facile,
-                                    veloce e intuitivo con un click.
-                                    Segui passo passo l’apprendimento
-                                    dei tuoi alunni e accompagnali da casa.
-                                  </span>
-                                </p>
-                                </div>
+               <div class="uk-width-1@m uk-grid-small uk-grid-match pb-3">
+                 <div class="uk-card uk-card-default uk-card-small uk-card-body uk-border-rounded " >
+                   <div class="uk-grid">
+                     <div class="uk-width-1-2@m pb-4">
+                       <img src="assets/gallery/svg/mock.svg" class="uk-align-center"></img>
+                     </div>
+                     <div class="uk-width-expand@m pt-4">
+                       <p>
+                         <span class="forwho">PER INSEGNANTI</span> <br />
+                         <span class="title1">Una piattaforma creata
+                           per le tue esigenze.</span> <br /><br />
+                         <span class="text-card">Scegli tra centinaia di template personalizzabili. <br /> Correggi i tuoi compiti in modo facile,
+                           veloce e intuitivo con un click.
+                           Segui passo passo l’apprendimento
+                           dei tuoi alunni e accompagnali da casa.
+                         </span>
+                       </p>
+                     </div>
 
-                              </div>
-                            </div>
+                   </div>
+                 </div>
 
-                          </div>
+               </div>
 
              </div>
 
@@ -238,24 +240,40 @@
 
 
          </div>
-       </div>
+
+
+<!-- <div class="padd2">
+  <div class="uk-card uk-card-default uk-card-large  uk-grid-collapse uk-child-width-1-2@s mr-5 ml-5" uk-grid>
+<div>
+    <img src="assets/gallery/svg/mock.svg" alt="" >
+
+</div>
+<div>
+    <div class="uk-card-body">
+      <p>
+        PER INSEGNANTI <br />
+        <span class="title1">Una piattaforma creata
+          per le tue esigenze.</span> <br /> <br />
+        <span class="text-card">Scegli tra centinaia di template personalizzabili. <br /> Correggi i tuoi compiti in modo facile,
+          veloce e intuitivo con un click.
+          Segui passo passo l’apprendimento
+          dei tuoi alunni e accompagnali da casa.
+        </span>
+      </p>
+    </div>
+</div>
+</div>
+</div> -->
 
      </section>
 
      <section>
-       <div class="sec1 container-fluid ">
+       <div class="sec1 container-fluid d-flex justify-content-center">
          <div class="row mr-5 ml-5">
-           <div class="col-lg-8 d-flex align-items-center">
-             <p class=" sec1-text ">Al servizio di Maestre, Bambini e Famiglie</p>
+           <div class="col-lg-12 ">
+             <p class=" sec1-text "><span class="redpen">RedPen</span> è direttamente connessa al tuo Istituto</p>
            </div>
-           <div class="col-lg-4 ">
-             <p id="scr1">
-               <a class="scr ">Scarica l'app</a>
-             </p>
-             <p id="scr2" class="pt-2">
-               oppure utilizza la versione Desktop
-             </p>
-           </div>
+
          </div>
        </div>
 
@@ -270,7 +288,7 @@
        <div class="container-fluid pt-5">
          <div class="row">
            <div class="offset-lg-2 col-lg-8">
-             <img src="assets/gallery/svg/ogg.svg" width="auto" class="uk-align-center"></img>
+             <img src="assets/gallery/svg/ill.svg" width="auto" class="uk-align-center"></img>
            </div>
          </div>
          <div class="row pt-5 ">
@@ -298,12 +316,12 @@
          Scopri cosa puoi fare con RedPen
        </p>
 
-       <div class=" uk-grid  ml-3 mr-3" >
+       <div class=" uk-grid  ml-3 mr-3">
 
 
 
          <!-- <div class="uk-child-width-1-3@s uk-grid-match" uk-grid> -->
-           <!--
+         <!--
            <div>
              <div class="uk-card uk-card-default uk-card-hover uk-card-body bx-sw">
                <div class="row">
@@ -318,108 +336,108 @@
 
              </div>
            </div> -->
-           <div class="uk-width-1-3@m uk-grid-small uk-grid-match pb-3 ">
-                    <div class="uk-card uk-card-default uk-card-small uk-card-body bx-sw" style="border-radius:2vh">
-                      <div class="uk-grid">
-                        <div class="uk-width-1-3@m">
-                          <img src="assets/gallery/svg/calendar.svg" class="uk-align-center" style="height:100px;"></img>
-                        </div>
-                        <div class="uk-width-expand@m pt-4 text-card2">
+         <div class="uk-width-1-3@m uk-grid-small uk-grid-match pb-3 ">
+           <div class="uk-card uk-card-default uk-card-small uk-card-body bx-sw" style="border-radius:2vh">
+             <div class="uk-grid">
+               <div class="uk-width-1-3@m">
+                 <img src="assets/gallery/svg/calendar.svg" class="uk-align-center" style="height:100px;"></img>
+               </div>
+               <div class="uk-width-expand@m pt-4 text-card2">
 
-                            <p>Rimani aggiornato su scadenze e consegne</p>
+                 <p>Rimani aggiornato su scadenze e consegne</p>
 
-                          </div>
+               </div>
 
-                        </div>
-                      </div>
-
-                    </div>
-
-                    <div class="uk-width-1-3@m uk-grid-small uk-grid-match pb-3">
-                             <div class="uk-card uk-card-default uk-card-small uk-card-body bx-sw" style="border-radius:2vh">
-                               <div class="uk-grid">
-                                 <div class="uk-width-1-3@m">
-                                   <img src="assets/gallery/svg/control.svg" class="uk-align-center" style="height:100px;"></img>
-                                 </div>
-                                 <div class="uk-width-expand@m pt-4 text-card2">
-
-                                     <p>Modifica e personalizza
-                                       i template compiti</p>
-
-                                   </div>
-
-                                 </div>
-                               </div>
-
-                             </div>
-
-                             <div class="uk-width-1-3@m uk-grid-small uk-grid-match pb-3">
-                                      <div class="uk-card uk-card-default uk-card-small uk-card-body bx-sw" style="border-radius:2vh">
-                                        <div class="uk-grid">
-                                          <div class="uk-width-1-3@m">
-                                            <img src="assets/gallery/svg/arrow.svg"  class="uk-align-center" style="height:100px;"></img>
-                                          </div>
-                                          <div class="uk-width-expand@m pt-4 text-card2">
-
-                                              <p>Correggi direttamente
-                                                sulla piattaforma</p>
-
-                                            </div>
-
-                                          </div>
-                                        </div>
-
-                                      </div>
-
-                                      <div class="uk-width-1-3@m uk-grid-small uk-grid-match pb-3">
-                                               <div class="uk-card uk-card-default uk-card-small uk-card-body bx-sw" style="border-radius:2vh">
-                                                 <div class="uk-grid">
-                                                   <div class="uk-width-1-3@m">
-                                                     <img src="assets/gallery/svg/mic.svg" class="uk-align-center" style="height:100px;"></img>
-                                                   </div>
-                                                   <div class="uk-width-expand@m pt-4 text-card2">
-                                                     <p>Registra e commenta
-                                                       con note vocali</p>
-                                                     </div>
-
-                                                   </div>
-                                                 </div>
-
-                                               </div>
-
-                                               <div class="uk-width-1-3@m uk-grid-small uk-grid-match pb-3">
-                                                        <div class="uk-card uk-card-default uk-card-small uk-card-body bx-sw" style="border-radius:2vh">
-                                                          <div class="uk-grid">
-                                                            <div class="uk-width-1-3@m">
-                                                              <img src="assets/gallery/svg/graph.svg" class="uk-align-center" style="height:100px;"></img>
-                                                            </div>
-                                                            <div class="uk-width-expand@m pt-4 text-card2">
-                                                              <p>Visualizza i progressi
-                                                                di alunni e classi</p>
-                                                              </div>
-
-                                                            </div>
-                                                          </div>
-
-                                                        </div>
-
-                                                        <div class="uk-width-1-3@m uk-grid-small uk-grid-match pb-3">
-                                                                 <div class="uk-card uk-card-default uk-card-small uk-card-body bx-sw" style="border-radius:2vh">
-                                                                   <div class="uk-grid">
-                                                                     <div class="uk-width-1-3@m">
-                                                                       <img src="assets/gallery/svg/chat.svg"  class="uk-align-center" style="height:100px;"></img>
-                                                                     </div>
-                                                                     <div class="uk-width-expand@m pt-4 text-card2">
-                                                                       <p>Invia e ricevi messaggi
-                                                                         con classi e alunni</p>
-                                                                       </div>
-
-                                                                     </div>
-                                                                   </div>
-
-                                                                 </div>
+             </div>
+           </div>
 
          </div>
+
+         <div class="uk-width-1-3@m uk-grid-small uk-grid-match pb-3">
+           <div class="uk-card uk-card-default uk-card-small uk-card-body bx-sw" style="border-radius:2vh">
+             <div class="uk-grid">
+               <div class="uk-width-1-3@m">
+                 <img src="assets/gallery/svg/control.svg" class="uk-align-center" style="height:100px;"></img>
+               </div>
+               <div class="uk-width-expand@m pt-4 text-card2">
+
+                 <p>Modifica e personalizza
+                   i template compiti</p>
+
+               </div>
+
+             </div>
+           </div>
+
+         </div>
+
+         <div class="uk-width-1-3@m uk-grid-small uk-grid-match pb-3">
+           <div class="uk-card uk-card-default uk-card-small uk-card-body bx-sw" style="border-radius:2vh">
+             <div class="uk-grid">
+               <div class="uk-width-1-3@m">
+                 <img src="assets/gallery/svg/arrow.svg" class="uk-align-center" style="height:100px;"></img>
+               </div>
+               <div class="uk-width-expand@m pt-4 text-card2">
+
+                 <p>Correggi direttamente
+                   sulla piattaforma</p>
+
+               </div>
+
+             </div>
+           </div>
+
+         </div>
+
+         <div class="uk-width-1-3@m uk-grid-small uk-grid-match pb-3">
+           <div class="uk-card uk-card-default uk-card-small uk-card-body bx-sw" style="border-radius:2vh">
+             <div class="uk-grid">
+               <div class="uk-width-1-3@m">
+                 <img src="assets/gallery/svg/mic.svg" class="uk-align-center" style="height:100px;"></img>
+               </div>
+               <div class="uk-width-expand@m pt-4 text-card2">
+                 <p>Registra e commenta
+                   con note vocali</p>
+               </div>
+
+             </div>
+           </div>
+
+         </div>
+
+         <div class="uk-width-1-3@m uk-grid-small uk-grid-match pb-3">
+           <div class="uk-card uk-card-default uk-card-small uk-card-body bx-sw" style="border-radius:2vh">
+             <div class="uk-grid">
+               <div class="uk-width-1-3@m">
+                 <img src="assets/gallery/svg/graph.svg" class="uk-align-center" style="height:100px;"></img>
+               </div>
+               <div class="uk-width-expand@m pt-4 text-card2">
+                 <p>Visualizza i progressi
+                   di alunni e classi</p>
+               </div>
+
+             </div>
+           </div>
+
+         </div>
+
+         <div class="uk-width-1-3@m uk-grid-small uk-grid-match pb-3">
+           <div class="uk-card uk-card-default uk-card-small uk-card-body bx-sw" style="border-radius:2vh">
+             <div class="uk-grid">
+               <div class="uk-width-1-3@m">
+                 <img src="assets/gallery/svg/chat.svg" class="uk-align-center" style="height:100px;"></img>
+               </div>
+               <div class="uk-width-expand@m pt-4 text-card2">
+                 <p>Invia e ricevi messaggi
+                   con classi e alunni</p>
+               </div>
+
+             </div>
+           </div>
+
+         </div>
+
+       </div>
 
 
        </div>
@@ -494,9 +512,9 @@
              Terms & Conditions<br>
              Privacy Policy<br>
            </p>
-          </div>
-          <div class="uk-width-1-4@m pb-2">
-            <h4>Contact Us</h4>
+         </div>
+         <div class="uk-width-1-4@m pb-2">
+           <h4>Contact Us</h4>
            <p>
              <span uk-icon="mail"></span>&nbsp;&nbsp;redpen@redpen.it <br>
              <span uk-icon="receiver"></span>&nbsp;&nbsp;+39 020299374 <br>
@@ -507,12 +525,12 @@
          </div>
          <div class="uk-width-1-4@m pb-2">
            <h4>Download</h4>
-          <p>
-            Android<br>
-            iOS <br>
+           <p>
+             Android<br>
+             iOS <br>
 
-          </p>
-        </div>
+           </p>
+         </div>
        </div>
      </div>
    </footer>
@@ -524,5 +542,5 @@
    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
    <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.3/dist/js/uikit.min.js"></script>
    <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.3/dist/js/uikit-icons.min.js"></script>
-
+   <script src="main.js"></script>
  </body>

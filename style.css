@@ -25,11 +25,19 @@ body {
   font-family: Menco-bold;
   overflow-x: hidden;
 }
-
+.fixed-top.scrolled {
+  background-color: #fff !important;
+  transition: background-color 200ms linear;
+}
 p {
   margin: 0 0 0 0 !important;
 }
-
+.redpen{
+  font-family: Menco-bold;
+}
+.home{
+  font-size: 2.5rem;
+}
 #nav-space1 {
   padding-left: 1.5rem;
   padding-right: 1rem;
@@ -38,6 +46,12 @@ p {
 #nav-space2 {
   padding-left: 1.5rem;
   padding-right: 0rem;
+}
+
+.bg-img {
+  background-image: url('assets/gallery/svg/ogg.svg');
+  background-repeat: no-repeat;
+  background-position: 110% 0%;
 }
 
 .reg {
@@ -188,14 +202,16 @@ p {
 }
 
 .title1 {
-  font-size: 1.5rem;
-  line-height: 1.5rem;
+  font-size: 3.5rem;
+  line-height: 3.5rem;
 }
-
+.forwho{
+  font-size: 1.8rem;
+}
 .text-card {
   font-family: Cal-reg;
-  font-size: 1.3rem;
-  line-height: 1.3rem;
+  font-size: 2.5rem;
+  line-height: 2.5rem;
 }
 
 .text-ill {
@@ -207,7 +223,6 @@ p {
 
 .bx-sw {
   box-shadow: 0 5px 10px rgba(255, 187, 35, 0.25);
-  
 }
 
 .text-card2 {
