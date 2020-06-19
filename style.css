@@ -29,6 +29,10 @@ body {
   background-color: #fff !important;
   transition: background-color 200ms linear;
 }
+.fixed-top.scrolled2 {
+  background-color: #fff !important;
+  transition: background-color 200ms linear;
+}
 p {
   margin: 0 0 0 0 !important;
 }
@@ -86,7 +90,7 @@ p {
   margin-right: 1rem;
   border: 0px solid #ff2500;
   color: black !important;
-
+font-size: 1.2rem;
   border-radius: 15px;
 }
 
@@ -256,6 +260,9 @@ p {
 .acc-text{
   font-family:Cal-reg;
   font-size:1.5rem;
+}
+.acc-bg{
+  background-color: #FFF7E0;
 }
 .foot{
   color: white ;
