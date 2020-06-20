@@ -65,6 +65,10 @@ p {
   background-image: url('assets/gallery/svg/ogg.svg');
   background-repeat: no-repeat;
   background-position: 110% 0%;
+  height:100vh;
+}
+.bg-mob{
+  display:none;
 }
 
 .reg {
@@ -73,9 +77,38 @@ p {
   padding-left: 1rem;
   padding-right: 1rem;
   margin-right: 1rem;
-  border: 1px solid black;
+  border: 0px solid black;
   color: black !important;
   border-radius: 15px;
+  font-family: Menco-med;
+}
+
+
+
+.faq {
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-right: 1rem;
+  border: 0px solid #ff2500;
+  color: black !important;
+font-size: 1.2rem;
+  border-radius: 15px;
+  font-family:Menco-med;
+}
+
+.faq2 {
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-right: 1rem;
+  border: 0px solid #ff2500;
+  color: black !important;
+font-size: 1.2rem;
+  border-radius: 15px;
+  font-family:Menco-bold;
 }
 
 .acc {
@@ -89,21 +122,6 @@ p {
   background-color: #ff2500;
   border-radius: 15px;
 }
-
-.faq {
-  padding-top: 0.2rem;
-  padding-bottom: 0.2rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  margin-right: 1rem;
-  border: 0px solid #ff2500;
-  color: black !important;
-font-size: 1.2rem;
-  border-radius: 15px;
-  font-family:Menco-bold;
-}
-
-
 .pay-off {
   font-size: 5rem;
   line-height: 5rem;
@@ -265,7 +283,7 @@ font-size: 1.2rem;
 }
 .acc-title{
   font-family:Menco-bold;
-  font-size:1.3rem;
+  font-size:1.5rem;
 }
 .acc-text{
   font-family:Cal-reg;
@@ -282,7 +300,67 @@ font-size: 1.2rem;
   background-color:#ff2500;
 }
 /* iphone */
-@media only screen and (max-width: 414px) {}
+@media only screen and (max-width: 414px) {
+  .home{
+    font-size: 2rem;
+    margin-left: 0 !important;
+    color:black;
+  }
+  .navbar{
+    background-color:white;
+  }
+  .margin-mob{
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  .bg-img {
+    background-image: url('');
+    height:auto;
+  padding-top:15vh;
+
+  }
+  .bg-mob{
+    display:none;
+
+  }
+  .sub-off {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    font-family: Cal-reg;
+  }
+  .sec1-text {
+    font-size: 2rem;
+    text-align: center;
+    line-height: 2rem;
+    font-family: Cal-reg;
+  }
+  .sec1-butt{
+    display: flex;
+    justify-content: center !important;
+    padding-top:3rem;
+  }
+  .sec1 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: #ff2500;
+    color: white;
+  }
+  .padd-mob{
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+  }
+  .text-ill {
+    font-family: Cal-reg;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    text-align: center;
+  }
+  .faq-title{
+    font-family:Menco-bold;
+    font-size:3rem;
+    text-align: center;
+  }
+}
 
 /* ipad */
 @media only screen and (max-width: 768px) {}
