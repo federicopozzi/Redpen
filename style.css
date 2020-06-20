@@ -324,6 +324,9 @@ font-size: 1.2rem;
 .bg-foot{
   background-color:#ff2500;
 }
+.img-foot{
+  width:300px;
+}
 /* iphone */
 @media only screen and (max-width: 414px) {
   .home{
@@ -411,6 +414,7 @@ font-size: 1.2rem;
   .card-cent{
     width:auto !important;
   }
+
 }
 
 /* ipad */
