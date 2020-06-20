@@ -23,11 +23,29 @@
 }
 
 /* Desktop */
+
+
 html {
   width: 100vw;
   overflow-x: hidden;
 }
-
+.navbar-light .navbar-toggler {
+  border-color:white;
+  color:black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding:0;
+}
+.navbar-light .navbar-toggler-icon{
+  background-image: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.via{
+  display: none !important;
+}
 body {
   width: 100vw;
   font-family: Menco-bold;
@@ -74,7 +92,7 @@ p {
 .reg {
   padding-top: 0.2rem;
   padding-bottom: 0.2rem;
-  padding-left: 1rem;
+
   padding-right: 1rem;
   margin-right: 1rem;
   border: 0px solid black;
@@ -88,7 +106,7 @@ p {
 .faq {
   padding-top: 0.2rem;
   padding-bottom: 0.2rem;
-  padding-left: 1rem;
+
   padding-right: 1rem;
   margin-right: 1rem;
   border: 0px solid #ff2500;
@@ -308,6 +326,9 @@ font-size: 1.2rem;
   }
   .navbar{
     background-color:white;
+  }
+  .via{
+    display: flex !important;
   }
   .margin-mob{
     margin-left: 0 !important;
