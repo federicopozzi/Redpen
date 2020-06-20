@@ -69,6 +69,9 @@ p {
   font-size: 2.5rem;
   color:black;
 }
+.home:hover{
+  color:black;
+}
 #nav-space1 {
   padding-left: 1.5rem;
   padding-right: 1rem;
@@ -246,6 +249,7 @@ font-size: 1.2rem;
   font-family: Menco-bold;
   font-size: 2rem;
   text-align: center;
+  padding-bottom:2rem;
 }
 
 .card1 {
@@ -268,6 +272,7 @@ font-size: 1.2rem;
   font-size: 3rem;
   line-height: 3rem;
 }
+
 .forwho{
   font-size: 1.8rem;
 }
@@ -309,6 +314,8 @@ font-size: 1.2rem;
 }
 .acc-bg{
   background-color: #FFF7E0;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 .foot{
   color: white ;
@@ -380,6 +387,29 @@ font-size: 1.2rem;
     font-family:Menco-bold;
     font-size:3rem;
     text-align: center;
+  }
+
+  .title1 {
+    font-size: 2rem;
+    line-height: 2.1rem;
+
+  }
+.mob-align{
+  text-align: center !important;
+}
+
+  .forwho{
+    font-size: 1.2rem;
+
+  }
+  .text-card {
+    font-family: Cal-reg;
+    font-size: 1.2rem;
+    line-height: 1rem;
+
+  }
+  .card-cent{
+    width:auto !important;
   }
 }
 
