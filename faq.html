@@ -19,6 +19,7 @@
   <link rel="icon" sizes="192x192" href="assets/favicon.png">
   <!-- bootstrap -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.3/dist/css/uikit.min.css" />
   <!-- style and js -->
   <link rel="stylesheet" type="text/css" href="style.css">
@@ -58,7 +59,7 @@
 
   <main>
     <section  class="padd">
-      <div class="container-fluid ">
+      <div class="container-fluid " data-aos="fade-up" data-aos-delay="10" data-aos-duration="1300">
       <div class="row">
         <div class="col-lg-12 d-flex justify-content-center">
           <h2 class="faq-title">Hai qualche domanda? </h2>
@@ -81,9 +82,9 @@
 
       <div class="container-fluid">
         <div class="row">
-          <div class="offset-lg-1 col-lg-10">
+          <div class="offset-lg-1 col-lg-10" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1300">
             <ul uk-accordion>
-              <li class="acc-bg pl-4 pr-4 uk-border-rounded">
+              <li class="acc-bg pl-4 pr-4 uk-border-rounded" >
                   <a class="uk-accordion-title acc-title" href="#" >Cosa è RedPen?</a>
                   <div class="uk-accordion-content">
                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -188,5 +189,9 @@
   <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.3/dist/js/uikit.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.3/dist/js/uikit-icons.min.js"></script>
   <script src="https://kit.fontawesome.com/6d757dfe9b.js" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+AOS.init();
+</script>
   <script src="./main.js"></script>
 </body>
