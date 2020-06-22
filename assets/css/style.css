@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Menco-bold";
-  src: url("assets/fonts/MencoBold.woff") format('woff');
+  src: url("/assets/fonts/MencoBold.woff") format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -8,7 +8,7 @@
 
 @font-face {
   font-family: "Menco-med";
-  src: url("assets/fonts/Menco-Medium.woff") format('woff');
+  src: url("/assets/fonts/Menco-Medium.woff") format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -16,7 +16,7 @@
 
 @font-face {
   font-family: "Cal-reg";
-  src: url("assets/fonts/Calibre-Regular.woff") format('woff');
+  src: url("/assets/fonts/Calibre-Regular.woff") format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: block;
