@@ -82,7 +82,7 @@ p {
 }
 
 .bg-img {
-  background-image: url('/assets/gallery/svg/ogg.svg');
+  background-image: url('assets/gallery/svg/ogg.svg');
   background-repeat: no-repeat;
   background-position: 110% 0%;
   height:100vh;
