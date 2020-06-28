@@ -356,7 +356,7 @@ font-size: 1.2rem;
 }
 .img-prima1{
   height:500px;
-  transform: scale(1.6);
+  transform: scale(0.9);
 }
 .margin-card{
   margin-right:10rem;
@@ -458,7 +458,8 @@ font-size: 1.2rem;
 
   }
   .img-prima1{
-    height:200px;
+    height:250px;
+    transform: scale(0.9);
 
   }
 .margin-card{
