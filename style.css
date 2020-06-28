@@ -22,6 +22,22 @@
   font-display: block;
 }
 
+@font-face {
+  font-family: "Cal-sbold";
+  src: url("assets/fonts/Calibre-Semibold.woff") format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+@font-face {
+  font-family: "Cal-Thin";
+  src: url("assets/fonts/Calibre-Thin.woff") format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
 /* Desktop */
 
 html {
@@ -268,12 +284,14 @@ font-size: 1.2rem;
 }
 
 .title1 {
+  font-family: Cal-sbold;
   font-size: 3rem;
   line-height: 3rem;
 }
 
 .forwho{
   font-size: 1.8rem;
+  font-family: Cal-Thin;
 }
 .text-card {
   font-family: Cal-reg;
@@ -334,7 +352,7 @@ font-size: 1.2rem;
 }
 .img-prima{
   height:500px;
-  transform: scale(1);
+  transform: scale(1.2);
 }
 .img-prima1{
   height:500px;
@@ -436,6 +454,7 @@ font-size: 1.2rem;
   }
   .img-prima{
     height:200px;
+    transform: scale(1.2);
 
   }
   .img-prima1{
