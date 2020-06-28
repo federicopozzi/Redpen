@@ -332,6 +332,9 @@ font-size: 1.2rem;
 .img-foot{
   width:300px;
 }
+.img-prima{
+  height:400px;
+}
 /* iphone */
 @media only screen and (max-width: 414px) {
   .home{
@@ -421,6 +424,9 @@ font-size: 1.2rem;
   }
   .card-cent{
     width:auto !important;
+  }
+  .img-prima{
+    height:200px;
   }
 
 }
