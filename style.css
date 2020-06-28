@@ -352,7 +352,7 @@ font-size: 1.2rem;
 }
 .img-prima{
   height:500px;
-  transform: scale(1.2);
+  transform: scale(1);
 }
 .img-prima1{
   height:500px;
@@ -453,8 +453,8 @@ font-size: 1.2rem;
     width:auto !important;
   }
   .img-prima{
-    height:200px;
-    transform: scale(1.2);
+    height:250px;
+    transform: scale(1);
 
   }
   .img-prima1{
