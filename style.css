@@ -371,6 +371,7 @@ font-size: 1.2rem;
 .text-name{
   font-family: Cal-reg;
   font-size: 1.2rem;
+  text-align: center;
 }
 /* iphone */
 @media only screen and (max-width: 414px) {
@@ -576,7 +577,8 @@ font-size: 1.2rem;
     text-align: justify;
   }
   .padd6{
-    padding-top:5rem; 
+    padding-top:5rem;
+
   }
 
 }
