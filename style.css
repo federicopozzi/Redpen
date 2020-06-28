@@ -251,6 +251,9 @@ font-size: 1.2rem;
   padding-top: 8rem;
   padding-bottom: 3rem;
 }
+.padd6{
+  padding-top: 15rem;
+}
 
 .video {
   width: 75%;
@@ -364,6 +367,10 @@ font-size: 1.2rem;
 }
 .faqq{
   border-radius:25px;background-color:#ffbe26; color:white;font-family:Cal-sbold;
+}
+.text-name{
+  font-family: Cal-reg;
+  font-size: 1.2rem;
 }
 /* iphone */
 @media only screen and (max-width: 414px) {
@@ -567,6 +574,9 @@ font-size: 1.2rem;
     font-size: 1.6rem;
     line-height: 1.6rem;
     text-align: justify;
+  }
+  .padd6{
+    padding-top:5rem; 
   }
 
 }
