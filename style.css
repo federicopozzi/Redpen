@@ -334,6 +334,11 @@ font-size: 1.2rem;
 }
 .img-prima{
   height:400px;
+  transform: scale(1);
+}
+.img-prima1{
+  height:400px;
+  transform: scale(1.6);
 }
 /* iphone */
 @media only screen and (max-width: 414px) {
@@ -427,6 +432,11 @@ font-size: 1.2rem;
   }
   .img-prima{
     height:200px;
+
+  }
+  .img-prima1{
+    height:200px;
+
   }
 
 }
