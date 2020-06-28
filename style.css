@@ -333,12 +333,16 @@ font-size: 1.2rem;
   width:300px;
 }
 .img-prima{
-  height:400px;
+  height:500px;
   transform: scale(1);
 }
 .img-prima1{
-  height:400px;
+  height:500px;
   transform: scale(1.6);
+}
+.margin-card{
+  margin-right:10rem;
+  margin-left:10rem;
 }
 /* iphone */
 @media only screen and (max-width: 414px) {
@@ -438,7 +442,10 @@ font-size: 1.2rem;
     height:200px;
 
   }
-
+.margin-card{
+  margin-right:0rem;
+  margin-left:0rem;
+}
 }
 
 /* ipad */
