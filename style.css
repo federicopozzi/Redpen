@@ -580,5 +580,19 @@ font-size: 1.2rem;
     padding-top:5rem;
 
   }
+  .margin-card{
+    margin-right:0rem;
+    margin-left:0rem;
+  }
+  .img-prima{
+    height:250px;
+    transform: scale(1);
+
+  }
+  .img-prima1{
+    height:250px;
+    transform: scale(0.9);
+
+  }
 
 }
