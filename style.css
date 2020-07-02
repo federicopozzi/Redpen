@@ -399,6 +399,9 @@ p {
   font-size: 1.2rem;
   text-align: center;
 }
+.accedi-mob{
+  display:none;
+}
 
 /* iphone */
 @media only screen and (max-width: 414px) {
@@ -515,6 +518,11 @@ p {
   .margin-card {
     margin-right: 0rem;
     margin-left: 0rem;
+  }
+  .accedi-desk{
+    display:none;
+  }.accedi-mob{
+    display:flex;
   }
 }
 
